@@ -16,7 +16,7 @@ This is a Node.js automation project that helps you streamline job applications 
 
 ## 📁 Project Structure
 
-```bash
+```
 .
 ├── apply.js                # Puppeteer bot that fills out application forms
 ├── gmail.js                # Gmail API script that extracts job alerts
@@ -31,17 +31,22 @@ This is a Node.js automation project that helps you streamline job applications 
 
 🔐 Setup Instructions
 1. Clone the Repository
+```
 git clone https://github.com/HARVIRGHUMAN/apply-automation.git
 cd apply-automation
 npm install
-
-2. Add Your Gmail API Credentials
+```
+3. Add Your Gmail API Credentials
 Follow Google's OAuth steps to download your oauth2.keys.json file, and place it in the project root.
+```
 # Required file: oauth2.keys.json
+```
 
 3. First Time Authorization
 When you first run the project, it will prompt you to visit a link and paste an auth code:
+```
 node index.js
+```
 This will save a token.json so you don’t have to re-authorize every time.
 
 ⚙️ Customization
