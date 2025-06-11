@@ -31,8 +31,8 @@ This is a Node.js automation project that helps you streamline job applications 
 
 🔐 Setup Instructions
 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/job-automation-bot.git
-cd job-automation-bot
+git clone https://github.com/HARVIRGHUMAN/apply-automation.git
+cd apply-automation
 npm install
 
 2. Add Your Gmail API Credentials
