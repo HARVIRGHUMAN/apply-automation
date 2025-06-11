@@ -36,25 +36,25 @@ git clone https://github.com/HARVIRGHUMAN/apply-automation.git
 cd apply-automation
 npm install
 ```
-3. Add Your Gmail API Credentials
-Follow Google's OAuth steps to download your oauth2.keys.json file, and place it in the project root.
+2. Add Your Gmail API Credentials
+  Follow Google's OAuth steps to download your oauth2.keys.json file, and place it in the project root.
 ```
 # Required file: oauth2.keys.json
 ```
 
 3. First Time Authorization
-When you first run the project, it will prompt you to visit a link and paste an auth code:
+  When you first run the project, it will prompt you to visit a link and paste an auth code:
 ```
 node index.js
 ```
-This will save a token.json so you don’t have to re-authorize every time.
+  This will save a token.json so you don’t have to re-authorize every time.
 
 ⚙️ Customization
-Job Title Filter: Change JOB_TITLE in gmail.js and apply.js to whatever field you're interested in.
+  Job Title Filter: Change JOB_TITLE in gmail.js and apply.js to whatever field you're interested in.
 
-Email Search Filter: Update the gmail.users.messages.list query to match your alert provider.
+  Email Search Filter: Update the gmail.users.messages.list query to match your alert provider.
 
-Form Selectors: If you're using a different job portal (not Taleo), update the selectors in apply.js.
+  Form Selectors: If you're using a different job portal (not Taleo), update the selectors in apply.js.
 
 ❗ Disclaimer
-This project is for educational and personal productivity use only. Please check the terms of service of any platform you automate interactions with.
+  This project is for educational and personal productivity use only. Please check the terms of service of any platform you automate interactions with.
